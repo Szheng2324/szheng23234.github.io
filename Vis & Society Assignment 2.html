@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///Users/shelleyzheng/Downloads/report.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Vis &amp; Society Assignment 2</title>
+	<link rel="stylesheet" href="./Vis &amp; Society Assignment 2_files/report.css">
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 2</small>
+			Exploratory Data Analysis
+		</h1>
+
+		<p>
+			<strong>Shelley Zheng</strong> — <em>xiaolaiz@mit.edu</em>
+		</p>
+	</header>
+	<main>
+		<section>
+			<h2>Change Over Time in Corporate Ownership and Owner Occupancy Rates in Boston Neighborhoods</h2>
+
+			<h3>Overall Analysis Questions</h3>
+			<ol>
+				<li>How does the rate of owner-occupied properties and rate of corporate-owned properties change over time?</li>
+				<li>What is the distribution of racial and age groups across the neighborhoods?
+
+</li>
+				<li>What is the distribution of occupied and vacant housing across the neighborhoods?
+
+</li>
+				<li>Who lives in the areas where change is happening the most and least?
+
+<li>How many people do not live in owner-occupied properties?
+
+</li></li>
+			</ol>
+		</section>
+
+		<section>
+			<h2>Discoveries &amp; Insights</h2>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic1.png" alt="">
+				<figcaption>
+To get the overall trend of the dataset we will need to see how the attributes changed over time. In this chart we are observing how the average rate of owners-occupied property has changed in 20 years. We can see a general decrease throughout this time interval, which supports the current Boston's housing crisis phenomenon. One reason for this could be due to the increase in population and which lead to the decrease of people who own homes. 				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic2.png" alt="">
+				<figcaption>The other spectrum of this phenomenon is the increase of the rate of corporate owned housing. We can see that the average rate of corporate owned housing is increasing at an exponential rate. The average corporate owned rate changes at a much faster rate than the owner-occupied rate. With this current trend, it is very possible that the rate of corporate owned housing will increase more drastically in the future. 
+
+</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic3.png" alt="">
+				<figcaption>In order to start analyzing the data and create effective visualization we will take care of data quality issues first. The data will be presented in various plots to help us find the answers to the questions above. This chart shows the change in rate of corporate-owned properties from 2004-2024 for 18 neighborhoods in alphabetical order. There is an overall increase in corporate-owned properties. However, there is an usual amount of null data. It is likely that these data were cleared out during the joining process so to account for these anomalies we will be excluding these values in the analysis moving forward.  </figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic4.png" alt="">
+				<figcaption>This chart shows the change in rate of owner-occupied properties from 2004-2024 for 18 neighborhoods in alphabetical order. There is a slight overall decrease in owner-occupied rates through the years. Similarly, there is an abnormal amount of null data. As stated above, we will exclude this data and only look at the remaining neighborhoods. </figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic5.png" alt="">
+				<figcaption>These two charts show the changes in owner occupied rate and corporate rate over time side by side. We can see that the owners occupied rate is higher in average than corporate owners rate throughout all the neighborhoods. However, the corporate owners rate is increasing at an exponential rate in almost every neighborhood. This is likely due to an increase in homes becoming investments for large private equity investors. The decrease in owner-occupied rate on the other hand is likely due to the increased home prices and more people opting to rent instead of buying houses. 
+
+</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic6.png" alt="">
+				<figcaption>This chart reveals more about the people living in these neighborhoods and shows the age distribution. We can observe that most people are 18 or older which makesense because usually only adults make enough money to afford their own property. Out of all the neighborhoods, Dorchester had the most population and Longwood had the least population.
+
+</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic7.png" alt="">
+				<figcaption>A major problem contributing to the housing crisis in Boston is the lack of vacant units. With this chart, we can see that this is indeed the case. Their proportion of occupied units and vacant units is very significant. We can see that Dorchester, Roxbury, and Brighton have the most vacant units. This makes sense because we have learned a couple charts back that these three neighborhoods also have the most population so more units supported is predictable. 
+
+</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic8.png" alt="">
+				<figcaption>With the decrease in owner-occupied homes it is valuable to see which people are affected the least and most. This chart represents the racial distribution in the neighborhood with the least decrease in the rate of owner-occupied. We can observe that although the population in Dorchester is bigger, hence the bigger chart, that the most prominent racial group in these two neighborhoods are Black people followed by Hispanic people and White people. 
+
+</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic9.png" alt="">
+				<figcaption>On the other hand, the 2 neighborhoods with the most decrease in rate of owner-occupied were Brighton and South Boston. We can look at this chart a little more closely to see the sense of the racial distribution. We can observe that by a large margin, White people are much more represented in this chart than others. From background readings we have heard that people of color are much more affected in the housing crisis. However, from these charts we can see the opposition to those claims. Although it is unclear whether race actually plays a role change in owner-occupied housing, it is worth doing a deeper investigation. 
+
+</figcaption>
+			</figure>
+
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic10.png" alt="">
+				<figcaption>After looking at racial distributions in Owner-occupied housing, we can now focus on the corporate-owned rate. Although corporate-owned property is increasing drastically all across Boston, there are some neighborhoods who seem to have less change compared to others. West Roxbury and Hyde Park are the two neighborhoods with the least amount of increase in rate of corporate-owned property. These two neighborhoods are similar in population, but drastically different in racial distribution. While West Roxbury is largely White, Hyde Park is largely Black. 
+
+</figcaption>
+			<figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic11.png" alt="">
+				<figcaption>Lastly, the two neighborhoods with the most increase in Corporate-Owned rate is East Boston, and South Boston Waterfront. Following the trend before, there doesn't seem to be a correlation between race and change in rate of Corporate-Owned Rate. This could be explained by the common struggle that people in Boston are facing with large companies investing in housing and making it more difficult to buy a home. 
+
+</figcaption>
+			</figure><figure>
+				<img src="./Vis &amp; Society Assignment 2_files/pic12.png" alt="">
+				<figcaption>As we learn more we can see that there seems to be a gap between the total population and the people living in owner-occupied homes. This is likely due to the people who live in institutions. In this data set, this includes people in college who are living in residential housing, people who are residing in nursing facilities, people who are residing in military quarters, people in juvenile facilities, and others. We can see that by a large margin, there are a lot of people who are living in college dorms. Although these people contribute to the population in that neighborhood, they are not contributing to the owner occupied rate or corporate owned housing as they reside in neither. However, it is still important to distinguish how much of the population is made up of these people so we can accurately analyze the data. 
+
+</figcaption>
+			</figure></figure>
+		</section>
+
+		<section>
+			<h2>Summary</h2>
+
+			<p>In Boston, there are many neighborhoods that are all undergoing change in the number of houses being owned by private owners and large companies. In this analysis, we have identified the people who are affected the most. This includes age, race, and institutional living as well as the occupancy of units in different neighborhoods. There seems to be a slight correlation in race and rate of owner-occupied houses and almost no correlation in rate of corporate-owned. With this information, we cannot claim with full confidence how different people are being affected by the change in the housing market. To answer these questions in a more convincing way, we will need data like eviction and change in population over time. 
+
+</p>
+		</section>
+	</main>
+
+
+</body></html>
